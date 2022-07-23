@@ -3,7 +3,7 @@
 The Android image compression library image compressor is small and effective. With very little or no image quality degradation, a compressor enables you to reduce the size of large photos into smaller photos.
 
 <p align="center">
-  <img src="[your_relative_path_here](https://raw.githubusercontent.com/vinodbaste/ImageCompressor/main/image%20(2).png)" width="350"  height = "500">
+  <img src="(https://raw.githubusercontent.com/vinodbaste/ImageCompressor/main/image%20(2).png)" width="350"  height = "500">
 </p>
 
 ![plot](https://raw.githubusercontent.com/vinodbaste/ImageCompressor/main/image%20(2).png)
