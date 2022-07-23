@@ -43,5 +43,27 @@ val compressedImagePath = ImageCompressUtils.compressImage(
         )
 ```
 
+# Example
+```kotlin
+ 	//absolute path of the image
+        val imagePath= "actualImagePath" 
+        
+        ImageCompressUtils.compressImage(
+            context = this,
+            imagePath = imagePath,
+            imageName = "imageName",
+            imageQuality = 50
+        )
+
+        //your function to play with compressed image
+        loadCompressedImage(imagePath) 
+```
+
+# Note
+```
+> Do make a copy of the image and pass the path if the image is choosen from gallery.
+> Image is compressed at the specified path and saved.
+```
+
 
 
