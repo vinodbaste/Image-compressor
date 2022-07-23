@@ -64,7 +64,7 @@ val compressedImagePath = ImageCompressUtils.compressImage(
 # Note
 ```
 > Do make a copy of the image and pass the path if the image is choosen from gallery.
-> Image is compressed at the specified path and saved.
+> Image is compressed at the original image path and saved.
 ```
 
 
