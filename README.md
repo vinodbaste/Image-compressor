@@ -47,15 +47,23 @@ val compressedImagePath = ImageCompressUtils.compressImage(
 
 # Example
 ```kotlin
- 	//absolute path of the image
-        val imagePath= "actualImagePath" 
-        
+ 	 //absolute path of the image
+        val imagePath= "actualImagePath"
+
+        val imageFileBc = File(imagePath)
+        val imageSizeBc = imageFileBc.length() / 1024 // In BYTES
+        Log.d("image_before_compress", imageSizeBc.toString())
+
         ImageCompressUtils.compressImage(
             context = this,
             imagePath = imagePath,
             imageName = "imageName",
             imageQuality = 50
         )
+
+        val imageFileAc = File(imagePath)
+        val imageSizeAC = imageFileAc.length() / 1024 // In BYTES
+        Log.d("image_after_compress", imageSizeAC.toString())
 
         //your function to play with compressed image
         loadCompressedImage(imagePath) 
