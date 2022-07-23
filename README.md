@@ -20,7 +20,7 @@ allprojects {
 `Step 2:` Add the dependency in your **project build.gradle**
 ```kotlin
 dependencies {
-	        **implementation 'com.github.vinodbaste:ImageCompressor:1.0.1'**
+	        implementation 'com.github.vinodbaste:ImageCompressor:1.0.1'
 }
 ```
 # Let's compress the image size!
