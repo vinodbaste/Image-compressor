@@ -31,5 +31,17 @@ ImageCompressUtils.compressImage(
             imageQuality = 50
         )
 ```
+**imageQuality** is set to `50` by default.
+
+#### Compress Image File at the specified `imagePath` and return the `compressed ImagePath`
+```kotlin
+val compressedImagePath = ImageCompressUtils.compressImage(
+            context = this,
+            imagePath = "actualImagePath",
+            imageName = "imageName",
+            imageQuality = 50
+        )
+```
+
 
 
