@@ -4,7 +4,7 @@ The Android image compression library image compressor is small and effective. W
 
 <img src = "https://raw.githubusercontent.com/vinodbaste/ImageCompressor/main/image%20(2)_google-pixel4xl-clearlywhite-portrait.jpg" width = 250 height = 500 />
 
-# How to
+# How to implement
 To get a Git project into your build:
 ## Gradle
 ` Step 1:` Add it in your **root build.gradle**  at the end of repositories:
