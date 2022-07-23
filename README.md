@@ -20,12 +20,12 @@ allprojects {
 `Step 2:` Add the dependency in your **project build.gradle**
 ```kotlin
 dependencies {
-	        implementation 'com.github.vinodbaste:ImageCompressor:1.0.1'
-	}
+	        **implementation 'com.github.vinodbaste:ImageCompressor:1.0.1'**
+}
 ```
 # Let's compress the image size!
 #### Compress Image File at the specified `imagePath`
-When compressing a picture, add the following block of code to the activity or fragment. Either after taking a picture with a camera or selecting one from a gallery.
+When **compressing** a picture, add the following block of code to the **activity or fragment**. Either after taking a **picture with a camera** or selecting one **from a gallery**.
 ```kotlin
 ImageCompressUtils.compressImage(
             context = this,
