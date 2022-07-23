@@ -34,7 +34,7 @@ ImageCompressUtils.compressImage(
             imageQuality = 50
         )
 ```
-**compressImage** takes 4 parameters where the last one is optional to pass
+**compressImage** takes 4 parameters where the **last one is optional**
 * **context**, the current/active state of the application.
 * **imagePath** parameter takes the absolute image path.
 * **imageName** is completely up to the user.
