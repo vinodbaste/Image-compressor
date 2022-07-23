@@ -24,12 +24,7 @@ dependencies {
 # Let's compress the image size!
 #### Compress Image File at the specified `imagePath`
 ```
-ImageCompressUtils.compressImage(
-            context = this,
-            imagePath = "actualImagePath",
-            imageName = "imageName",
-            imageQuality = 50
-        )
+<script src="https://gist.github.com/vinodbaste/10672292c5affb2d9fa0c9a6d3d7e2e7.js"></script>
 ```
 
 
