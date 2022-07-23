@@ -22,7 +22,7 @@ dependencies {
 	}
 ```
 # Let's compress the image size!
-### Compress Image File at the specified `imagePath`
+#### Compress Image File at the specified `imagePath`
 ```
 ImageCompressUtils.compressImage(
             context = this,
