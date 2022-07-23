@@ -25,6 +25,7 @@ dependencies {
 ```
 # Let's compress the image size!
 #### Compress Image File at the specified `imagePath`
+When compressing a picture, add the following block of code to the activity or fragment. Either after taking a picture with a camera or selecting one from a gallery.
 ```kotlin
 ImageCompressUtils.compressImage(
             context = this,
@@ -33,7 +34,11 @@ ImageCompressUtils.compressImage(
             imageQuality = 50
         )
 ```
-**imageQuality** is set to `50` by default.
+**compressImage** takes 4 parameters where the last one is optional to pass
+* **context**, the current/active state of the application.
+* **imagePath** parameter takes the absolute image path.
+* **imageName** is completely up to the user.
+* **imageQuality** is set to 50 by default. The max can be set to 100.
 
 #### Compress Image File at the specified `imagePath` and return the `compressed ImagePath`
 ```kotlin
@@ -44,8 +49,11 @@ val compressedImagePath = ImageCompressUtils.compressImage(
             imageQuality = 50
         )
 ```
+With the image name supplied, the code block above returns the path to the compressed picture.
+**compressedImagePath** has the imagePath with the imageName specified.
 
 # Example
+An illustration of how the code block can be utilized.
 ```kotlin
  	 //absolute path of the image
         val imagePath= "actualImagePath"
@@ -71,8 +79,8 @@ val compressedImagePath = ImageCompressUtils.compressImage(
 
 # Note
 ```
-> Do make a copy of the image and pass the path if the image is choosen from gallery.
-> Image is compressed at the original image path and re-written at the same path.
+> In the event that an image is selected from a gallery, make a copy of it and follow the path.
+> The original picture path is used to compress and rewrite the image.
 ```
 # License
 ```
