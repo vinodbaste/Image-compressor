@@ -76,7 +76,7 @@ An illustration of how the code block can be utilized.
         //your function to play with compressed image
         loadCompressedImage(imagePath) 
 ```
-#proguard-rules
+# proguard-rules
 -keepclassmembers class com.android.imagecompressor.compressImageUtils
 -keep class * extends com.android.imagecompressor.compressImageUtils {
  <init>(...);
