@@ -5,6 +5,8 @@
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 [![GitHub tag](https://img.shields.io/github/tag/vinodbaste/image-compressor?include_prereleases=&sort=semver&color=blue)](https://github.com/vinodbaste/image-compressor/releases/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue)](#license)
+[![News - Android Weekly](https://img.shields.io/badge/News-Android_Weekly-d36f21)](https://androidweekly.net/issues/issue-326)
+[![GitHub - VinodBaste](https://img.shields.io/badge/GitHub-VinodBaste-4664c6)](https://github.com/vinodbaste/Image-compressor)
 
 An Android image compress library, **image compressor**, is small and effective. With very little or no image quality degradation, a compressor enables you to reduce the size of large photos into smaller size photos.
 
