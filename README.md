@@ -1,5 +1,8 @@
 # Image Compressor
 
+[![GitHub tag](https://img.shields.io/github/tag/vinodbaste/image-compressor?include_prereleases=&sort=semver&color=blue)](https://github.com/vinodbaste/image-compressor/releases/)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue)](#license)
+
 An Android image compress library, **image compressor**, is small and effective. With very little or no image quality degradation, a compressor enables you to reduce the size of large photos into smaller size photos.
 
 <img src = "https://raw.githubusercontent.com/vinodbaste/ImageCompressor/main/image%20(2)_google-pixel4xl-clearlywhite-portrait.jpg" width = 250 height = 500 />
