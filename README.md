@@ -1,5 +1,7 @@
 # Image Compressor
 
+An Android image compress library, **image compressor**, is small and effective. With very little or no image quality degradation, a compressor enables you to reduce the size of large photos into smaller size photos.
+
 [![Google DevLibrary - VinodBaste](https://img.shields.io/badge/Google_DevLibrary-VinodBaste-ea9f2d?logo=<svg+role%3D"img"+viewBox%3D"0+0+24+24"+xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg"><title>Android<%2Ftitle><path+d%3D"M17.523+15.3414c-.5511+0-.9993-.4486-.9993-.9997s.4483-.9993.9993-.9993c.5511+0+.9993.4483.9993.9993.0001.5511-.4482.9997-.9993.9997m-11.046+0c-.5511+0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511+0+.9993.4483.9993.9993+0+.5511-.4483.9997-.9993.9997m11.4045-6.02l1.9973-3.4592a.416.416+0+00-.1521-.5676.416.416+0+00-.5676.1521l-2.0223+3.503C15.5902+8.2439+13.8533+7.8508+12+7.8508s-3.5902.3931-5.1367+1.0989L4.841+5.4467a.4161.4161+0+00-.5677-.1521.4157.4157+0+00-.1521.5676l1.9973+3.4592C2.6889+11.1867.3432+14.6589+0+18.761h24c-.3435-4.1021-2.6892-7.5743-6.1185-9.4396"%2F><%2Fsvg>&logoColor=30DC80)](https://devlibrary.withgoogle.com/products/android/repos/vinodbaste-Image-compressor)
 
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
@@ -7,8 +9,6 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue)](#license)
 [![News - Android Weekly](https://img.shields.io/badge/News-Android_Weekly-d36f21)](https://androidweekly.net/issues/issue-326)
 [![GitHub - VinodBaste](https://img.shields.io/badge/GitHub-VinodBaste-4664c6)](https://github.com/vinodbaste/Image-compressor)
-
-An Android image compress library, **image compressor**, is small and effective. With very little or no image quality degradation, a compressor enables you to reduce the size of large photos into smaller size photos.
 
 <img src = "https://raw.githubusercontent.com/vinodbaste/ImageCompressor/main/image%20(2)_google-pixel4xl-clearlywhite-portrait.jpg" width = 250 height = 500 />
 
